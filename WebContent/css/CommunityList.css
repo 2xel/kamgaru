@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+#container {
+  margin: 0 auto; max-width: 576px;
+}
+@media only screen and (min-width: 1200px) {
+  #container {
+    padding: 16px 0;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  #container {
+    padding: 8px 0;
+  }
+  #container > form.search {
+    margin: 0 8px;
+  }
+}
+
+#container > h1 {
+  width: 0; height: 0; overflow: hidden;
+}
+#container > form.search {
+  position: relative; height: 48px; box-sizing: border-box;
+}
+#container > form.search > div {
+  height: 100%; box-sizing: border-box; border: 1px solid #d6d6d6; background-color: #fff;
+}
+#container > form.search.searched > div {
+  margin-right: 48px;
+}
+#container > form.search > div > input {
+  padding: 0 48px 0 12px; width: 100%; height: 100%; box-sizing: border-box; border: 0; color: #292929; font-size: 14px; background-color: transparent;
+}
+#container > form.search > div > input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+#container > form.search > div > span.button {
+  display: block; position: absolute; right: 0; top: 0; width: 48px; height: 100%; background: transparent url('/images/community.board.buttons.search.png') no-repeat center center; background-size: 24px 24px; cursor: pointer;
+}
+#container > form.search.searched > div > span.button {
+  right: 48px;
+}
+#container > form.search > span.cancel {
+  display: none;
+}
+#container > form.search.searched > span.cancel {
+  display: block; position: absolute; right: 0; top: 0; width: 48px; height: 100%; line-height: 48px; color: #737373; font-size: 14px; font-weight: bold; text-align: center; cursor: pointer;
+}
+
+#container > div.result > h2 {
+  padding: 16px 0 8px 8px; color: #737373; font-size: 12px; font-weight: bold;
+}
+#container > div.result > ol.communities > li.empty {
+  padding: 24px 16px; line-height: 20px; color: #737373; font-size: 14px; text-align: center; background-color: #fff;
+}
+#container > div.result > ol.communities > li.empty > a.button {
+  display: block; margin-top: 12px; height: 36px; line-height: 36px; border-radius: 3px; color: #fff; font-size: 12px; font-weight: bold; text-align: center; background-color: #1dcdff;
+}
+#container > div.result > ol.communities > li.noresult {
+  padding: 112px 0 48px 0; color: #737373; font-size: 16px; text-align: center; background: transparent url('/images/community.search.noresult.png') no-repeat center top 48px; background-size: 48px 48px;
+}
+#container > div.result > ol.communities > li > a.community {
+  display: block; position: relative; padding: 12px 16px 12px 72px; border-bottom: 1px solid #f2f2f2; font-size: 0; background-color: #fff;
+}
+#container > div.result > ol.communities > li > a.community:hover {
+  background-color: #f8f8f8;
+}
+#container > div.result > ol.communities > li > a.community > figure {
+  position: absolute; left: 8px; top: 8px; width: 48px; height: 48px; border-radius: 24px; background-image: url('/images/community.picture.empty.png'); background-repeat: no-repeat; background-size: cover;
+}
+#container > div.result > ol.communities > li > a.community > img.new {
+  float: left; display: inline-block; margin: 4px 0 0 4px; width: 10px; height: 10px;
+}
+#container > div.result > ol.communities > li > a.community > p.name {
+  float: left; max-width: 92%; line-height: 20px; color: #292929; font-size: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#container > div.result > ol.communities > li > a.community > p.details > span {
+  display: inline-block; margin-right: 4px; line-height: 18px; font-size: 12px;
+}
+#container > div.result > ol.communities > li > a.community > p.details > span.pick {
+  padding-left: 14px; color: #0aafdf; background: transparent url('/images/community.pick.blue.png') no-repeat left center; background-size: 10px 11.5px;
+}
+#container > div.result > ol.communities > li > a.community > p.details > span.category {
+  color: #737373; font-weight: bold;
+}
+#container > div.result > ol.communities > li > a.community > p.description {
+  line-height: 16px; max-height: 48px; color: #737373; font-size: 12px; overflow: hidden;
+}
+
+#container div.loading {
+  padding: 16px 0;
+}
+#container div.loading > img {
+  margin: 0 auto; width: 45px; height: 45px;
+}

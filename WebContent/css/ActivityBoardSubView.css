@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+#container {
+  margin: 8px auto 0 auto; max-width: 576px;
+}
+
+#container > div.title {
+  padding: 12px 16px; border-bottom: 1px solid #f2f2f2; background-color: #fff;
+}
+#container > div.title > h1 {
+  margin-bottom: 4px; line-height: 20px; color: #292929; font-size: 18px; font-weight: bold; word-wrap: break-word;
+}
+#container > div.title > span.viewcount {
+  float: left; padding-left: 14px; line-height: 14px;
+  color: #0aafdf; font-size: 10px; letter-spacing: 0; background: transparent url('/images/viewcount.png') no-repeat left top; background-size: 12px 8px;
+}
+#container > div.title > time {
+  float: left; margin-left: 8px; line-height: 14px;
+  color: #a6a6a6; font-size: 10px; letter-spacing: 0;
+}
+#container > div.title > a.remove {
+  float: right; line-height: 14px;
+  color: #737373; font-size: 12px;
+}
+
+#container > div.activity {
+  padding: 16px; border-bottom: 1px solid #f2f2f2; background-color: #fff;
+}
+#container > div.activity > h2 {
+  margin-bottom: 16px; color: #737373; font-size: 12px; font-weight: bold;
+}
+#container > div.activity > a {
+  display: block; margin: -8px; overflow: hidden; border: 1px solid #f2f2f2;
+}
+#container > div.activity > a:hover {
+  background-color: #f8f8f8;
+}
+#container > div.activity > a > div.thumb {
+  float: left; margin-right: 12px; width: 80px; height: 114px; background-image: url('/images/thumb.png'); background-size: cover; background-position: center center;
+}
+#container > div.activity > a > span.dday {
+  float: right; display: inline-block; margin: 12px; padding: 0 4px; border-radius: 3px; line-height: 15px;
+  color: #fff; font-size: 10px; letter-spacing: 0; background-color: #a6a6a6;
+}
+#container > div.activity > a > span.dday.active {
+  background-color: #ffcc1c;
+}
+#container > div.activity > a > h3,
+#container > div.activity > a > p {
+  margin-right: 12px;
+}
+#container > div.activity > a > h3 {
+  margin-bottom: 4px; padding-top: 12px; max-height: 36px; line-height: 18px; overflow: hidden; color: #292929; font-size: 14px; font-weight: bold;
+}
+#container > div.activity > a > p {
+  line-height: 18px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; letter-spacing: 0;
+}
+#container > div.activity > a > p.medium {
+  color: #4c4c4c; font-size: 12px;
+}
+#container > div.activity > a > p.small {
+  color: #737373; font-size: 10px;
+}
+#container > div.activity > a > p.small.viewcount {
+  padding-left: 14px; color: #a6a6a6; background: transparent url('/images/viewcount2.png') no-repeat left center; background-size: 12px 8px;
+}
+#container > div.activity > a > p.small > span {
+  margin-right: 8px;
+}
+
+#container > div.text {
+  padding: 16px; background-color: #fff;
+}
+#container > div.text > h2 {
+  margin-bottom: 16px; color: #737373; font-size: 12px; font-weight: bold;
+}
+#container > div.text > p {
+  margin: -8px; padding: 8px; line-height: 20px;
+  color: #292929; font-size: 14px; background-color: #f8f8f8; word-wrap: break-word;
+}
+#container > div.text > p > a {
+  color: #737373; text-decoration: underline;
+}
+
+#container > div.comments > h2 {
+  padding: 8px; color: #737373; font-size: 12px; font-weight: bold;
+}
+#container > div.comments > ol.group > li {
+  border-bottom: 1px solid #f2f2f2;
+}
+#container > div.comments > ol.group > li.empty {
+  padding: 24px 0; color: #a6a6a6; font-size: 14px; text-align: center; background-color: #fff;
+}
+#container > div.comments > ol.group > li.comment {
+  padding: 12px 16px; background-color: #fff;
+}
+#container > div.comments > ol.group > li.comment > p.text {
+  line-height: 20px; color: #292929; font-size: 14px; word-wrap: break-word;
+}
+#container > div.comments > ol.group > li.comment > p.text > a {
+  color: #737373; text-decoration: underline;
+}
+#container > div.comments > ol.group > li.comment > time {
+  float: left; line-height: 14px;
+  color: #a6a6a6; font-size: 10px; letter-spacing: 0;
+}
+#container > div.comments > ol.group > li.comment > h3 {
+  float: left; margin-left: 8px; line-height: 14px;
+  color: #ffa81f; font-size: 10px; font-weight: bold; letter-spacing: 0;
+}
+#container > div.comments > ol.group > li.comment > a.remove {
+  float: right; line-height: 14px;
+  color: #737373; font-size: 12px;
+}
+
+#container > div.buttons {
+  position: fixed; z-index: 4; left: 0; bottom: 0; width: 100%;
+}
+#container > div.buttons > div.wrap {
+  margin: 0 auto; max-width: 576px; background-color: #1dcdff;
+}
+#container > div.buttons > div.wrap > a {
+  float: left; display: block; width: 100%; height: 48px; line-height: 48px; box-sizing: border-box;
+  color: #fff; font-size: 14px; font-weight: bold; text-align: center;
+}
+#container > div.buttons > div.wrap > a.comment {
+  border-right: 1px solid #f2f2f2;
+}
+
+#container > form.writecomment {
+  padding: 8px; background-color: #fff;
+}
+#container > form.writecomment > div.wrap {
+  position: relative; background-color: #f2f2f2;
+}
+#container > form.writecomment > div.wrap > input {
+  padding: 8px 40px 8px 8px; width: 100%; height: 40px; line-height: 24px; box-sizing: border-box;
+  color: #292929; font-size: 16px; background-color: transparent;
+}
+#container > form.writecomment > div.wrap > input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+#container > form.writecomment > div.wrap > span.submit {
+  display: block; position: absolute; right: 0; top: 0; width: 40px; height: 40px;
+  background-image: url('/images/writecomment.submit.png'); background-repeat: no-repeat; background-position: center center; background-size: 24px 24px;
+}

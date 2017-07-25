@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+#container {
+  margin: 8px auto; max-width: 576px; padding: 0 8px;
+}
+
+#container > input.file {
+  position: absolute; width: 0; height: 0; overflow: hidden; opacity: 0;
+} 
+#container > figure {
+  position: relative; display: block; margin: 0 auto 8px auto; width: 120px; height: 120px; cursor: pointer;
+}
+#container > figure > img {
+  width: 100%; height: 100%; border-radius: 60px;
+}
+#container > figure > span.upload {
+  position: absolute; right: 0; bottom: 0; width: 36px; height: 36px; border-radius: 18px; background-color: #1dcdff; background-size: 18px 16px;
+}
+#container > figure > span.upload > input.file {
+  position: absolute; width: 36; height: 36; overflow: hidden; opacity: 0;
+}
+
+#container > section {
+  margin-bottom: 4px; background-color: #fff;
+}
+#container > section > p {
+  position: relative; height: 48px; border-bottom: 1px solid #f2f2f2; font-size: 0;
+}
+#container > section > p > label.label {
+  position: absolute; padding: 14px 16px; width: 56px; line-height: 20px; color: #737373; font-size: 12px; font-weight: bold;
+}
+#container > section > p > input.text,
+#container > section > p > span.category {
+  display: block; padding: 14px 16px 14px 88px; width: 100%; box-sizing: border-box; line-height: 20px; color: #292929; font-size: 14px;
+}
+#container > section > p > span.category {
+  background: transparent url('/images/community.new.category.png') no-repeat right 16px center; background-size: 10px 6px; cursor: pointer;
+}
+#container > section > p > label.checkbox {
+  display: block; padding: 14px 16px; line-height: 20px; cursor: pointer;
+}
+#container > section > p > label.checkbox > input {
+  position: absolute; right: 16px;
+}
+#container > section > p > label.checkbox > span {
+  color: #292929; font-size: 14px;
+}
+#container > section > p > label.checkbox > input:checked + span {
+  color: #0aafdf; font-weight: bold;
+}
+#container > input.submit {
+  height: 40px; line-height: 40px; width: 100%; border-radius: 3px; color: #fff; font-size: 14px; font-weight: bold; text-align: center; background-color: #1dcdff;
+}
+
+#container > div.options {
+  padding: 16px 0 8px 0; font-size: 0; text-align: center;
+}
+#container > div.options > a.button {
+  display: inline-block; margin: 0 4px; padding: 0 8px; height: 30px; line-height: 30px; border: 1px solid #d6d6d6; border-radius: 3px; color: #a6a6a6; font-size: 12px; font-weight: bold; cursor: pointer;
+}
+#container > div.options > div {
+  display: none; margin-top: 16px; padding: 16px; border: 1px solid #d6d6d6; text-align: initial; background-color: #fff;
+}
+#container > div.options > div > h2 {
+  margin-bottom: 16px; color: #292929; font-size: 16px; font-weight: bold;
+}
+#container > div.options > div > input.text {
+  display: block; margin-bottom: 4px; padding: 8px; width: 100%; max-width: 360px; height: 36px; line-height: 20px; box-sizing: border-box; border: 1px solid #d6d6d6; color: #292929; font-size: 14px;
+}
+#container > div.options > div > input.button {
+  display: block; margin-bottom: 16px; width: 100%; max-width: 360px; height: 36px; line-height: 20px; box-sizing: border-box; color: #fff; font-size: 14px; font-weight: bold; text-align: center; background-color: #1dcdff;
+}
+#container > div.options > div > p.description {
+  line-height: 16px; color: #737373; font-size: 12px;
+}

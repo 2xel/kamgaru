@@ -1,0 +1,22 @@
+﻿---카테고리 코드(C)      : C01 C02 C03 C04
+---게시글ID         : seq >> sequence이름 : boardid
+---분야 코드(F)         : F01 F02 ... F12
+---회원 코드(M)         : seq >> sequence이름 : membercode
+---커뮤니티 게시판 코드(CB)   : CB + 랜덤수(int)
+---커뮤니티 게시글 ID      : seq >> sequence이름 : comboardid
+---게시여부(상태)         : 0(게시X) / 1(게시O)
+
+create sequence membercode
+ increment 1
+ start with 1
+ nomaxvalue;
+
+crate sequence boardid
+ increment 1
+ start with 1
+ nomaxvalue;
+
+create sequence comboardid
+ increment 1
+ start with 1
+ nomaxvalue;

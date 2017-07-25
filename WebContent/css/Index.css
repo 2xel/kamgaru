@@ -1,0 +1,291 @@
+@CHARSET "UTF-8";
+
+#container {
+  position: relative; margin: 0 auto; box-sizing: border-box; font-size: 0;
+}
+@media only screen and (min-width: 1200px) {
+  footer {
+    border-top: 0;
+  }
+  #container {
+    padding-top: 16px; width: 1200px;
+  }
+  #container > section.download {
+    display: none;
+  }
+  #container > section.ad {
+    position: relative; left: 312px; margin-bottom: 16px; width: 872px; height: 136px;
+  }
+  #container > section.center {
+    position: relative; left: 312px; width: 872px;
+  }
+  #container > section.center > div.recent {
+    position: relative; margin-bottom: 16px; width: 576px;
+  }
+  #container > section.center > div.recent:last-of-type {
+    margin-bottom: 0;
+  }
+  #container > section.center > div.cards {
+    position: absolute; right: 0; top: 0; width: 280px;
+  }
+  #container > section.center > div.cards > div.card {
+    margin-bottom: 16px;
+  }
+  #container > section.center > div.cards > div.card > figure.thumbnail {
+    height: 186px;
+  }
+  #container > section.leftside {
+    position: absolute; left: 16px; top: 16px; width: 280px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  #container > section.ad {
+    margin-bottom: 8px;
+  }
+  #container > section.center {
+    margin-top: 8px;
+  }
+  #container > section.center > div.recent {
+    margin-bottom: 8px;
+  }
+  #container > section.center > div.cards {
+    position: relative; margin-bottom: 8px; padding: 8px 56px 8px 8px; overflow: hidden; overflow-x: auto; white-space: nowrap; background-color: #fff;
+  }
+  #container > section.center > div.cards::-webkit-scrollbar {
+    display: none;
+  }
+  #container > section.center > div.cards > div.card {
+    display: inline-block; margin-right: 8px; border: 1px solid #f2f2f2;
+  }
+  #container > section.center > div.cards > div.card:last-of-type {
+    margin-right: -48px;
+  }
+  #container > section.leftside > div.login {
+    display: none;
+  }
+  #container > section.leftside > div.logged {
+    display: none;
+  }
+}
+
+#container > section.download {
+  padding: 40px 0 56px 0; background-color: #1dcdff;
+}
+#container > section.download > h1 {
+  margin: 0 auto; width: 300px; height: 42px; background-size: 300px 42px;
+}
+#container > section.download > h1.text1 {
+  background-image: url('/Kamgaru/images/index.download.text.1.png');
+}
+#container > section.download > h1.text2 {
+  background-image: url('/Kamgaru/images/index.download.text.2.png');
+}
+#container > section.download > h1.text3 {
+  background-image: url('/Kamgaru/images/index.download.text.3.png');
+}
+#container > section.download > div.buttons {
+  margin-top: 16px; text-align: center;
+}
+#container > section.download > div.buttons > a {
+  display: inline-block; margin: 0 2px; height: 44px; border-radius: 3px; background-color: #fff; background-repeat: no-repeat; background-position: center center;
+}
+#container > section.download > div.buttons > a.playstore {
+  width: 122px; background-image: url('/Kamgaru/images/index.download.button.playstore.png'); background-size: 98px 24px;
+}
+#container > section.download > div.buttons > a.appstore {
+  width: 113px; background-image: url('/Kamgaru/images/index.download.button.appstore.png'); background-size: 89px 24px;
+}
+
+#container > section.ad {
+  overflow: hidden;
+}
+#container > section.ad > a > img {
+  width: 100%; height: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+  #container > section.center > div.recent > div.title {
+    padding: 16px; border-bottom: 1px solid #f2f2f2; background-color: #fff;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  #container > section.center > div.recent > div.title {
+    padding: 8px;
+  }
+}
+#container > section.center > div.recent > div.title > h2 > a {
+  line-height: 24px; color: #292929; font-size: 18px; font-weight: bold;
+}
+#container > section.center > div.recent > div.title > p.description {
+  line-height: 18px; color: #737373; font-size: 12px;
+}
+#container > section.center > div.recent > div.title > span.button {
+  float: right; margin: 6px 0 0 8px; padding: 0 8px 0 22px; height: 30px; line-height: 30px; border-radius: 3px; font-size: 12px; font-weight: bold; background-repeat: no-repeat; background-position: left 8px center; cursor: pointer;
+}
+#container > section.center > div.recent > div.title > span.button.pick {
+  color: #fff; background-color: #1dcdff; background-image: url('/Kamgaru/images/community.pick.white.png'); background-size: 10px 11.5px;
+}
+#container > section.center > div.recent > div.title > span.button.unpick {
+  color: #fff; background-color: #d6d6d6; background-image: url('/Kamgaru/images/community.pick.white.png'); background-size: 10px 11.5px;
+}
+#container > section.center > div.recent > ol.items {
+  min-height: 390px; background-color: #fff;
+}
+#container > section.center > div.recent > ol.items > li > a.item {
+  display: block; padding: 12px 16px; border-bottom: 1px solid #f2f2f2;
+}
+#container > section.center > div.recent > ol.items > li > a.item:hover {
+  background-color: #f8f8f8;
+}
+#container > section.center > div.recent > ol.items > li > a.item > p.profile > figure.picture {
+  display: inline-block; margin-right: 6px; width: 18px; height: 18px; vertical-align: top; background-color: #f2f2f2; background-size: cover; background-position: center center;
+}
+#container > section.center > div.recent > ol.items > li > a.item > p.profile > span.name {
+  display: inline-block; max-width: 70%; line-height: 18px; color: #737373; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#container > section.center > div.recent > ol.items > li > a.item > h3 {
+  line-height: 18px; color: #292929; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#container > section.center > div.recent > ol.items > li > a.item > span.detail {
+  display: block; line-height: 18px; color: #737373; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#container > section.center > div.recent > ol.items > li > a.item > span.dday {
+  float: right; display: inline-block; margin-left: 8px; padding: 0 4px; border-radius: 3px; line-height: 18px; color: #fff; font-size: 12px; letter-spacing: 0; background-color: #a6a6a6;
+}
+#container > section.center > div.recent > ol.items > li > a.item > span.dday.active {
+  background-color: #ffcc1c;
+}
+#container > section.center > div.recent > ol.items > li > a.item > span.category {
+  float: right; display: inline-block; margin-left: 8px; padding: 0 4px; border: 1px solid #ffcc1c; border-radius: 3px; line-height: 16px; color: #ffa81f; font-size: 12px; font-weight: bold; letter-spacing: 0;
+}
+#container > section.center > div.recent > ol.items > li > a.item > span.viewcount {
+  float: right; display: inline-block; margin-left: 8px; padding-left: 14px; line-height: 18px; color: #a6a6a6; font-size: 10px; background: transparent url('/Kamgaru/images/viewcount2.png') no-repeat left center; background-size: 12px 8px;
+}
+#container > section.center > div.recent > ol.items > li > a.item > hr {
+  margin-bottom: 4px;
+}
+#container > section.center > div.recent > div.buttons {
+  padding: 12px 16px; background-color: #fff;
+}
+#container > section.center > div.recent > div.buttons > a.button {
+  display: inline-block; margin-right: 4px; padding: 0 8px; line-height: 30px; border-radius: 3px; font-size: 12px; font-weight: bold;
+}
+#container > section.center > div.recent > div.buttons > a.button.blue {
+  color: #fff; background-color: #1dcdff;
+}
+#container > section.center > div.recent > div.buttons > a.button.gray {
+  color: #a6a6a6; background-color: #f2f2f2;
+}
+
+#container > section.center > div.cards > div.card {
+  width: 100%; background-color: #fff;
+}
+#container > section.center > div.cards > div.card > p.profile {
+  padding: 12px 16px;
+}
+#container > section.center > div.cards > div.card > p.profile > img.picture {
+  display: inline-block; margin-right: 6px; width: 20px; height: 20px; vertical-align: top;
+}
+#container > section.center > div.cards > div.card > p.profile > span.nickname {
+  display: inline-block; max-width: 60%; line-height: 20px; color: #292929; font-size: 14px; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#container > section.center > div.cards > div.card > p.profile > span.badge {
+  float: right; display: inline-block; padding: 0 4px; border-radius: 3px; line-height: 16px; border: 1px solid #d6d6d6; color: #a6a6a6; font-size: 10px; letter-spacing: 0;
+}
+#container > section.center > div.cards > div.card > figure.thumbnail {
+  background-color: #f8f8f8;
+}
+#container > section.center > div.cards > div.card > figure.thumbnail > img {
+  width: 100%; height: auto;
+}
+#container > section.center > div.cards > div.card > div.content {
+  padding: 16px;
+}
+#container > section.center > div.cards > div.card > div.content > h3 {
+  line-height: 18px; color: #292929; font-size: 14px; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#container > section.center > div.cards > div.card > div.content > p.text {
+  max-height: 36px; line-height: 18px; color: #4c4c4c; font-size: 14px; overflow: hidden;
+}
+#container > section.center > div.cards > div.card > div.content > a.button {
+  display: block; margin-top: 12px; line-height: 36px; border-radius: 3px; color: #fff; font-size: 14px; font-weight: bold; text-align: center; background-color: #ffcc1c;
+}
+
+#container > section.leftside > div.login {
+  margin-bottom: 8px; padding: 16px; height: 110px; box-sizing: border-box; background-color: #fff;
+}
+#container > section.leftside > div.login > p.introduction {
+  margin-bottom: 8px; line-height: 15px; color: #737373; font-size: 12px;
+}
+#container > section.leftside > div.login > a.button {
+  display: inline-block; width: 120px; border: 1px solid transparent; border-radius: 3px; height: 38px; line-height: 38px; font-size: 14px; font-weight: bold; text-align: center;
+}
+#container > section.leftside > div.login > a.button.login {
+  float: left; border-color: #1dcdff; color: #fff; background-color: #1dcdff;
+}
+#container > section.leftside > div.login > a.button.register {
+  float: right; border-color: #1dcdff; color: #0aafdf;
+}
+
+#container > section.leftside > div.logged {
+  position: relative; margin-bottom: 8px; padding: 26px 16px 26px 92px; height: 110px; box-sizing: border-box; background-color: #fff;
+}
+#container > section.leftside > div.logged > img.picture {
+  position: absolute; left: 16px; top: 25px; width: 60px; height: 60px; border-radius: 3px;
+}
+#container > section.leftside > div.logged > span.nickname {
+  display: block; margin-bottom: 4px; line-height: 24px; color: #292929; font-size: 18px; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#container > section.leftside > div.logged > a.button {
+  display: inline-block; margin-right: 4px; padding: 0 8px; border: 1px solid #d6d6d6; border-radius: 3px; height: 28px; line-height: 28px; color: #737373; font-size: 12px; text-align: center;
+}
+
+#container > section.leftside > h2 {
+  padding: 8px; line-height: 18px; color: #737373; font-size: 12px; font-weight: bold;
+}
+#container > section.leftside > ol.communities {
+  margin-bottom: 8px;
+}
+#container > section.leftside > ol.communities > li.empty {
+  padding: 24px 0; line-height: 15px; color: #737373; font-size: 12px; text-align: center; background-color: #fff;
+}
+#container > section.leftside > ol.communities > li.buttons {
+  padding: 12px 16px; background-color: #fff;
+}
+#container > section.leftside > ol.communities > li.buttons > a.button {
+  display: inline-block; padding: 0 8px; line-height: 30px; border-radius: 3px; color: #fff; font-size: 12px; font-weight: bold; background-color: #1dcdff;
+}
+#container > section.leftside > ol.communities > li > a.community {
+  display: block; position: relative; padding: 12px 16px 12px 72px; border-bottom: 1px solid #f2f2f2; background-color: #fff;
+}
+#container > section.leftside > ol.communities > li > a.community:hover {
+  background-color: #f8f8f8;
+}
+#container > section.leftside > ol.communities > li > a.community > figure {
+  position: absolute; left: 8px; top: 8px; width: 48px; height: 48px; border-radius: 24px; background-image: url('/Kamgaru/images/community.picture.empty.png'); background-repeat: no-repeat; background-size: cover;
+}
+#container > section.leftside > ol.communities > li > a.community > img.new {
+  float: left; display: inline-block; margin: 4px 0 0 4px; width: 10px; height: 10px;
+}
+#container > section.leftside > ol.communities > li > a.community > p.name {
+  float: left; max-width: 92%; line-height: 20px; color: #292929; font-size: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#container > section.leftside > ol.communities > li > a.community > p.details > span {
+  display: inline-block; margin-right: 4px; line-height: 18px; font-size: 12px;
+}
+#container > section.leftside > ol.communities > li > a.community > p.details > span.pick {
+  padding-left: 14px; color: #0aafdf; background: transparent url('/Kamgaru/images/community.pick.blue.png') no-repeat left center; background-size: 10px 11.5px;
+}
+#container > section.leftside > ol.communities > li > a.community > p.details > span.category {
+  color: #737373; font-weight: bold;
+}
+#container > section.leftside > ol.communities > li > a.community > p.description {
+  line-height: 16px; max-height: 48px; color: #737373; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+#container div.loading {
+  padding: 48px 0;
+}
+#container div.loading > img {
+  margin: 0 auto; width: 45px; height: 45px;
+}

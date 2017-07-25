@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *  /  common  /  * * * * * * * * * * * * * * * * * * * * * * * * */
+#container {
+	padding-bottom: 80px;
+}
+#container h1.logo {
+	height: 60px; background-repeat: no-repeat;
+}
+#container.find h1.logo {
+	background-image: url('/images/index.find.logo.png');
+}
+#container.findpassword h1.logo {
+	background-image: url('/images/index.find.logo.findpassword.png');
+}
+#container h1.logo a {
+	display: block; width: 60px; height: 100%; color: transparent; font-size: 0;
+}
+#container h2 {
+	padding: 16px 0 8px 8px; color: #737373; font-size: 13px; font-weight: bold;
+}
+#container form {
+	padding: 16px; border: 1px solid #d6d6d6; background-color: #fff;
+}
+#container p.input {
+	margin-top: -1px; padding: 5px 10px; border: 1px solid #e3e3e3; background-color: #fff;
+}
+#container p.submit {
+	margin-top: 4px; background-color: #c62917;
+}
+#container p input.text {
+	border: 0; width: 100%; height: 24px; line-height: 24px;
+	color: #292929; font-size: 14px; background-color: transparent; outline: none;
+}
+#container p.submit input.text {
+	height: 36px; line-height: 36px; color: #fff; font-weight: bold; cursor: pointer;
+}
+#container p.description {
+	margin-top: 8px; color: #a6a6a6; font-size: 12px;
+}
+
+#container p input.text::-webkit-input-placeholder {
+	color: #a6a6a6;
+}
+#container p input.text::-moz-placeholder {
+	color: #a6a6a6;
+	opacity: 1;
+}
+#container p input.text:-ms-input-placeholder {
+	color: #a6a6a6;
+}
+
+#container div.box {
+	padding: 16px;
+}
+#container div.box h3 {
+	margin-bottom: 4px; color: #737373; font-size: 13px; font-weight: bold;
+}
+#container div.box p {
+	color: #737373; font-size: 13px;
+}
+#container div.box a {
+	display: inline-block; padding: 0 8px; line-height: 25px; color: #fff; font-size: 14px; font-weight: bold; background-color: #c62917;
+}
+
+@media only screen and (min-width: 641px) {
+	#container {
+		top: 50px; 
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	#container {
+		margin: 0; padding-bottom: 0;
+	}
+	#container h1.logo {
+		display: none;
+	}
+	#container form {
+		border-width: 1px 0;
+	}
+	address {
+		display: none;
+	}
+}
+
+body.appwebview #container h1.logo {
+	display: none;
+}
+#container {
+	position: absolute; left: 50%; margin-left: -180px; width: 360px;
+}
+address {
+	position: fixed; bottom: 0; width: 100%; border-top: 1px solid #e3e3e3; text-align: center; background-color: #f8f8f8;
+}
+address > ul.links {
+	padding: 20px 0; font-size: 0;
+}
+address > ul.links > li {
+	display: inline-block; margin: 0 5px;
+}
+address > ul.links > li > a {
+	color: #4c4c4c; font-size: 13px;
+}
+address > ul.links > li.copyright > a {
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 640px) {
+	#container {
+		position: static; width: auto;
+	}
+	address > ul.links {
+		padding: 15px 0;
+	}
+}

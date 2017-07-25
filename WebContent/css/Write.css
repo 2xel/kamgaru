@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* imaged preview */ .filebox .upload-display { /* 이미지가 표시될 지역 */ margin-bottom: 5px; } @media(min-width: 768px) { .filebox .upload-display { display: inline-block; margin-right: 5px; margin-bottom: 0; } } .filebox .upload-thumb-wrap { /* 추가될 이미지를 감싸는 요소 */ display: inline-block; width: 54px; padding: 2px; vertical-align: middle; border: 1px solid #ddd; border-radius: 5px; background-color: #fff; } .filebox .upload-display img { /* 추가될 이미지 */ display: block; max-width: 100%; width: 100% \9; height: auto; }
+
+div.title {
+  border-bottom: 1px solid #d6d6d6; background-color: #fff;
+}
+div.title > div.wrap {
+  margin: 0 auto; max-width: 576px; padding: 16px;
+}
+div.title > div.wrap > h1 {
+  color: #292929; font-size: 18px;
+}
+div.title > div.wrap > h1 > strong {
+  color: #0aafdf;
+}
+div.title > div.wrap > p {
+  margin-top: 8px; line-height: 15px; color: #737373; font-size: 13px;
+}
+div.title > div.wrap > p.notice {
+  margin-top: 16px; color: #ff5d57; font-weight: bold;
+}
+
+#container {
+  margin: 0 auto; max-width: 576px; padding: 0 8px 8px 8px;
+}
+#container .hidden {
+  display: none;
+}
+#container > h2 {
+  padding: 16px 0 8px 0; color: #292929; font-size: 14px; font-weight: bold;
+}
+#container > p {
+  position: relative; margin-bottom: 4px; border: 1px solid #d6d6d6; font-size: 0;
+}
+#container > p > input.text {
+  padding: 8px; width: 100%; line-height: 20px; box-sizing: border-box;
+  color: #292929; font-size: 14px; background-color: #f9f9f9;
+}
+
+#container > p > input.text:focus {
+  background-color: #fff;
+}
+#container > p > input.attach {
+  position: absolute; margin-left: -80px; width: 80px; height: 36px; line-height: 36px; border: 0;
+  color: #fff; font-size: 14px; background-color: #1dcdff;
+}
+#container > p > input.file {
+  position: absolute; width: 80px; height: 36px; margin-left: -80px; opacity: 0;
+}
+#container > p > input.search {
+  padding: 8px 44px 8px 8px; width: 100%; line-height: 20px; box-sizing: border-box;
+  color: #292929; font-size: 14px; background-color: #f9f9f9;
+}
+#container > p > a.search {
+  position: absolute; right: 0; top: 0; display: block; width: 36px; height: 36px; background: transparent url('/images/filter.search.png') no-repeat center center; background-size: 24px 24px;
+}
+#container > p > textarea {
+  padding: 8px; width: 100%; height: 200px; line-height: 16px; box-sizing: border-box;
+  color: #292929; font-size: 12px; background-color: #f9f9f9;
+}
+#container > p > textarea.small {
+  height: 80px;
+}
+#container > p > textarea:focus {
+  background-color: #fff;
+}
+#container > div {
+  margin-bottom: 4px; padding: 16px 16px 8px 16px; border: 1px solid #d6d6d6; font-size: 0; background-color: #fff;
+}
+#container > div > h3 {
+  margin-bottom: 8px; color: #737373; font-size: 14px; font-weight: normal;
+}
+#container > div > label {
+  display: inline-block; line-height: 30px; min-width: 50%; color: #292929; font-size: 12px;
+}
+#container > div > label > input {
+  margin-right: 4px;
+}
+#container > div > input.date {
+  border: 1px solid #d6d6d6; width: 35%; height: 30px; line-height: 30px;
+  color: #292929; font-size: 14px;
+}
+#container > div > span {
+  margin: 0 8px 0 4px; color: #737373; font-size: 12px;
+}
+#container > div > hr {
+  margin-bottom: 8px;
+}
+#container > ul > li {
+  list-style-type: disc; margin: 0 0 4px 16px; color: #737373; font-size: 12px;
+}
+#container > label.agreement {
+  display: block; margin: 16px 0;
+}
+#container > label.agreement > p {
+  margin: 4px 8px; line-height: 14px; color: #737373; font-size: 11px;
+}
+#container > label.agreement > p.bold {
+  font-weight: bold;
+}
+#container > label.agreement > p > input {
+  margin-right: 4px;
+}
+#container > input.submit {
+  height: 40px; line-height: 40px; width: 100%;
+  color: #fff; font-size: 14px; font-weight: bold; text-align: center; background-color: #1dcdff;
+}
+
+#container > section > div {
+  display: block; border-bottom: 1px solid #d6d6d6; overflow: hidden; background-color: #fff;
+}
+#container > section > div:hover {
+  background-color: #f8f8f8;
+}
+#container > section > div > div.image {
+  float: left; margin-right: 12px; width: 80px; height: 80px; background-image: url('/images/thumb.png'); background-size: cover; background-position: center center;
+}
+#container > section > div > h2,
+#container > section > div > p {
+  margin-right: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+#container > section > div > h2 {
+  margin-bottom: 4px; padding-top: 12px; max-height: 36px; line-height: 18px; overflow: hidden; color: #292929; font-size: 14px; font-weight: bold;
+}
+#container > section > div > p {
+  line-height: 18px; letter-spacing: 0;
+}
+#container > section > div > p.description {
+  color: #4c4c4c; font-size: 12px;
+}
+#container > section > div > p.small {
+  color: #737373; font-size: 10px;
+}
+#container > section > div > p.small > span {
+  margin-right: 8px;
+}
+#container > section > p.message {
+  margin-top: 4px; padding: 16px; line-height: 20px; border: 1px solid #1dcdff;
+  color: #1dcdff; font-size: 14px; text-align: center; background-color: #fff;
+}
+#container > section > p.message > a {
+  margin: 0 2px; padding: 2px 4px; border-radius: 3px; color: #fff; background-color: #1dcdff; font-weight: bold;
+}

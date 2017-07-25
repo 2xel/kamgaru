@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+#container {
+  margin: 0 auto; max-width: 576px; padding: 8px;
+}
+
+#container > div.filter {
+  margin-bottom: 8px;  border: 1px solid #d6d6d6;
+}
+#container > div.filter > a {
+  float: left; display: block; height: 36px; line-height: 36px; box-sizing: border-box; border-right: 1px solid #d6d6d6; background-color: #fff;
+}
+#container > div.filter > select {
+      width: 43%; float: left; display: block; height: 36px; line-height: 36px; box-sizing: border-box; border-right: 1px solid #d6d6d6; background-color: #fff;
+}
+#container > div.filter > a:hover {
+  background-color: #f8f8f8;
+}
+#container > div.filter > a:last-of-type {
+  border-right: 0;
+}
+#container > div.filter > a.select {
+  padding: 0 22px 0 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #292929; font-size: 12px; background-image: url('https://www.campuspick.com/images/filter.select.arrow.png'); background-repeat: no-repeat; background-position: right 4px center; background-size: 18px 18px;
+}
+#container > div.filter > a.select.category,
+#container > div.filter > a.select.local {
+  width: 33%;
+}
+#container > div.filter > a.select.sort {
+  width: 22%;
+}
+#container > div.filter > a.search {
+  width: 14%; background-image: url('https://www.campuspick.com/images/filter.search.png'); background-repeat: no-repeat; background-position: center center; background-size: 24px 24px;
+}
+
+#container > form.search {
+  display: none; position: relative; margin-bottom: 8px;
+}
+#container > form.search > div {
+  margin-right: 48px; border: 1px solid #d6d6d6; background-color: #fff;
+}
+#container > form.search > div > input {
+  padding: 0 36px 0 8px; width: 100%; height: 36px; line-height: 20px; box-sizing: border-box;
+  color: #292929; font-size: 14px; background-color: transparent;
+}
+#container > form.search > div > input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+#container > form.search > div > span.button {
+  display: block; position: absolute; right: 48px; top: 0; width: 36px; height: 36px;
+  background-image: url('/images/filter.search.png'); background-repeat: no-repeat; background-position: center center; background-size: 24px 24px;
+}
+#container > form.search > span.cancel {
+  display: block; position: absolute; right: 0; top: 0; width: 48px; height: 36px; line-height: 36px;
+  color: #a6a6a6; font-size: 14px; font-weight: bold; text-align: center;
+}
+
+#container > ol.group > li.empty {
+  padding: 48px 0; color: #4c4c4c; font-size: 14px; font-weight: bold; text-align: center;
+}
+#container > ol.group > li > a.item {
+  display: block; margin-bottom: 4px; overflow: hidden; background-color: #fff;
+}
+#container > ol.group > li > a.item:hover {
+  background-color: #f8f8f8;
+}
+#container > ol.group > li > a.item > div.thumb {
+  float: left; margin-right: 12px; width: 80px; height: 114px; background-image: url('https://www.campuspick.com/images/thumb.png'); background-size: cover; background-position: center center;
+}
+#container > ol.group > li > a.item > div.club {
+  padding: 12px 0 8px 0; line-height: 24px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#container > ol.group > li > a.item > div.club > div.image {
+  float: left; margin-right: 8px; width: 24px; height: 24px; background-color: #f2f2f2; background-size: cover; background-position: center center;
+}
+#container > ol.group > li > a.item > div.club > span.name {
+  color: #292929; font-size: 12px; font-weight: bold;
+}
+#container > ol.group > li > a.item > span.dday {
+  float: right; display: inline-block; margin: 12px; padding: 0 4px; border-radius: 3px; line-height: 15px; color: #fff; font-size: 10px; letter-spacing: 0; background-color: #a6a6a6;
+}
+#container > ol.group > li > a.item > span.dday.active {
+  background-color: #ffcc1c;
+}
+#container > ol.group > li > a.item > span.dday.end {
+  float: right; display: inline-block; margin: 12px; padding: 0 4px; border-radius: 3px; line-height: 15px; color: #fff; font-size: 10px; letter-spacing: 0; background-color: #a6a6a6;
+}
+#container > ol.group > li > a.item > h2,
+#container > ol.group > li > a.item > p {
+  margin-right: 12px; line-height: 18px; overflow: hidden;
+}
+#container > ol.group > li > a.item > h2 {
+  margin-bottom: 4px; max-height: 36px; color: #292929; font-size: 14px;
+}
+#container > ol.group > li > a.item > p {
+  letter-spacing: 0; white-space: nowrap; text-overflow: ellipsis;
+}
+#container > ol.group > li > a.item > p.small {
+  color: #737373; font-size: 10px;
+}
+#container > ol.group > li > a.item > p.small > span {
+  margin-right: 8px;
+}
+#container > ol.group > li > a.item > p.small > span.viewcount {
+  padding-left: 14px; color: #a6a6a6; background: transparent url('https://www.campuspick.com/images/viewcount2.png') no-repeat left center; background-size: 12px 8px;
+}
+#container > ol.group > li > a.item > p.small > span.commentcount {
+  padding-left: 12px; color: #a6a6a6; background: transparent url('https://www.campuspick.com/images/commentcount.png') no-repeat left center; background-size: 9px 9px;
+}
+
+.page_nb {
+    width: 100%;
+    margin: 40px auto 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.page_nb li {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #dadada;
+    color: #333;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.page_nb li span {
+    color: #ff5a74;
+    font-weight: bold;
+}

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+ <campus id="250" name="ICT폴리텍대학"/>
+ <campus id="170" name="KAIST"/>
+ <campus id="211" name="KC대학교"/>
+ <campus id="147" name="가야대학교"/>
+ <campus id="76" name="가천대학교"/>
+ <campus id="88" name="가톨릭관동대학교"/>
+ <campus id="52" name="가톨릭대학교"/>
+ <campus id="298" name="가톨릭상지대학교"/>
+ <campus id="205" name="감리교신학대학교"/>
+ <campus id="77" name="강남대학교"/>
+ <campus id="263" name="강동대학교"/>
+ <campus id="253" name="강릉영동대학교"/>
+ <campus id="399" name="강릉원주대학교 강릉캠퍼스"/>
+ <campus id="400" name="강릉원주대학교 원주캠퍼스"/>
+ <campus id="260" name="강원관광대학교"/>
+ <campus id="401" name="강원대학교 춘천캠퍼스"/>
+ <campus id="402" name="강원대학교 삼척/도계캠퍼스"/>
+ <campus id="254" name="강원도립대학"/>
+ <campus id="299" name="거제대학교"/>
+ <campus id="30" name="건국대학교 서울캠퍼스"/>
+ <campus id="31" name="건국대학교 GLOCAL캠퍼스"/>
+ <campus id="102" name="건양대학교"/>
+ <campus id="224" name="경기과학기술대학교"/>
+ <campus id="34" name="경기대학교 수원캠퍼스"/>
+ <campus id="35" name="경기대학교 서울캠퍼스"/>
+ <campus id="176" name="경남과학기술대학교"/>
+ <campus id="177" name="경남대학교"/>
+ <campus id="300" name="경남도립거창대학"/>
+ <campus id="301" name="경남도립남해대학"/>
+ <campus id="329" name="경남정보대학교"/>
+ <campus id="92" name="경동대학교 양주캠퍼스"/>
+ <campus id="403" name="경동대학교 설악캠퍼스"/>
+ <campus id="404" name="경동대학교 원주문막캠퍼스"/>
+ <campus id="339" name="경민대학교"/>
+ <campus id="225" name="경복대학교"/>
+ <campus id="302" name="경북과학대학교"/>
+ <campus id="405" name="경북대학교 대구캠퍼스"/>
+ <campus id="406" name="경북대학교 상주캠퍼스"/>
+ <campus id="303" name="경북도립대학교"/>
+ <campus id="307" name="경북보건대학교"/>
+ <campus id="304" name="경북전문대학교"/>
+ <campus id="149" name="경상대학교"/>
+ <campus id="178" name="경성대학교"/>
+ <campus id="150" name="경운대학교"/>
+ <campus id="171" name="경인교육대학교"/>
+ <campus id="340" name="경인여자대학교"/>
+ <campus id="179" name="경일대학교"/>
+ <campus id="151" name="경주대학교"/>
+ <campus id="359" name="경찰대학"/>
+ <campus id="8" name="경희대학교 국제캠퍼스"/>
+ <campus id="9" name="경희대학교 서울캠퍼스"/>
+ <campus id="392" name="경희사이버대학교"/>
+ <campus id="165" name="계명대학교"/>
+ <campus id="323" name="계명문화대학교"/>
+ <campus id="341" name="계원예술대학교"/>
+ <campus id="278" name="고구려대학교"/>
+ <campus id="38" name="고려대학교 안암캠퍼스"/>
+ <campus id="39" name="고려대학교 세종캠퍼스"/>
+ <campus id="393" name="고려사이버대학교"/>
+ <campus id="103" name="고신대학교"/>
+ <campus id="104" name="공주교육대학교"/>
+ <campus id="105" name="공주대학교"/>
+ <campus id="369" name="광신대학교"/>
+ <campus id="351" name="광양보건대학교"/>
+ <campus id="11" name="광운대학교"/>
+ <campus id="409" name="광주가톨릭대학교"/>
+ <campus id="126" name="광주과학기술원"/>
+ <campus id="357" name="광주교육대학교"/>
+ <campus id="127" name="광주대학교"/>
+ <campus id="286" name="광주보건대학교"/>
+ <campus id="128" name="광주여자대학교"/>
+ <campus id="306" name="구미대학교"/>
+ <campus id="62" name="국민대학교"/>
+ <campus id="226" name="국제대학교"/>
+ <campus id="375" name="국제예술대학"/>
+ <campus id="279" name="군산간호대학교"/>
+ <campus id="133" name="군산대학교"/>
+ <campus id="280" name="군장대학교"/>
+ <campus id="215" name="극동대학교"/>
+ <campus id="395" name="글로벌사이버대학교"/>
+ <campus id="106" name="금강대학교"/>
+ <campus id="180" name="금오공과대학교"/>
+ <campus id="373" name="기독간호대학교"/>
+ <campus id="152" name="김천대학교"/>
+ <campus id="227" name="김포대학교"/>
+ <campus id="308" name="김해대학교"/>
+ <campus id="200" name="꽃동네대학교"/>
+ <campus id="107" name="나사렛대학교"/>
+ <campus id="129" name="남부대학교"/>
+ <campus id="108" name="남서울대학교"/>
+ <campus id="384" name="농협대학교"/>
+ <campus id="65" name="단국대학교 죽전캠퍼스"/>
+ <campus id="66" name="단국대학교 천안캠퍼스"/>
+ <campus id="309" name="대경대학교"/>
+ <campus id="153" name="대구가톨릭대학교"/>
+ <campus id="166" name="대구경북과학기술원"/>
+ <campus id="324" name="대구공업대학교"/>
+ <campus id="325" name="대구과학대학교"/>
+ <campus id="367" name="대구교육대학교"/>
+ <campus id="154" name="대구대학교"/>
+ <campus id="310" name="대구미래대학교"/>
+ <campus id="326" name="대구보건대학교"/>
+ <campus id="394" name="대구사이버대학교"/>
+ <campus id="336" name="대구예술대학교"/>
+ <campus id="208" name="대구외국어대학교"/>
+ <campus id="155" name="대구한의대학교"/>
+ <campus id="265" name="대덕대학교"/>
+ <campus id="330" name="대동대학교"/>
+ <campus id="228" name="대림대학교"/>
+ <campus id="368" name="대신대학교"/>
+ <campus id="264" name="대원대학교"/>
+ <campus id="410" name="대전가톨릭대학교"/>
+ <campus id="266" name="대전과학기술대학교"/>
+ <campus id="98" name="대전대학교"/>
+ <campus id="267" name="대전보건대학교"/>
+ <campus id="411" name="대전신학대학교"/>
+ <campus id="67" name="대진대학교"/>
+ <campus id="27" name="덕성여자대학교"/>
+ <campus id="287" name="동강대학교"/>
+ <campus id="58" name="동국대학교 서울캠퍼스"/>
+ <campus id="59" name="동국대학교 경주캠퍼스"/>
+ <campus id="229" name="동남보건대학교"/>
+ <campus id="63" name="동덕여자대학교"/>
+ <campus id="181" name="동명대학교"/>
+ <campus id="331" name="동부산대학교"/>
+ <campus id="335" name="동서대학교"/>
+ <campus id="230" name="동서울대학교"/>
+ <campus id="134" name="동신대학교"/>
+ <campus id="182" name="동아대학교"/>
+ <campus id="231" name="동아방송예술대학교"/>
+ <campus id="281" name="동아인재대학교"/>
+ <campus id="156" name="동양대학교"/>
+ <campus id="216" name="동양미래대학교"/>
+ <campus id="311" name="동원과학기술대학교"/>
+ <campus id="232" name="동원대학교"/>
+ <campus id="332" name="동의과학대학교"/>
+ <campus id="183" name="동의대학교"/>
+ <campus id="345" name="동주대학교"/>
+ <campus id="233" name="두원공과대학교"/>
+ <campus id="383" name="디지털서울문화예술대학교"/>
+ <campus id="376" name="라사라패션직업전문학교"/>
+ <campus id="172" name="루터대학교"/>
+ <campus id="312" name="마산대학교"/>
+ <campus id="50" name="명지대학교 인문캠퍼스"/>
+ <campus id="51" name="명지대학교 자연과학캠퍼스"/>
+ <campus id="217" name="명지전문대학"/>
+ <campus id="99" name="목원대학교"/>
+ <campus id="214" name="목포가톨릭대학교"/>
+ <campus id="282" name="목포과학대학교"/>
+ <campus id="135" name="목포대학교"/>
+ <campus id="136" name="목포해양대학교"/>
+ <campus id="346" name="문경대학교"/>
+ <campus id="100" name="배재대학교"/>
+ <campus id="218" name="배화여자대학교"/>
+ <campus id="109" name="백석대학교"/>
+ <campus id="276" name="백석문화대학교"/>
+ <campus id="350" name="백석예술대학교"/>
+ <campus id="283" name="백제예술대학교"/>
+ <campus id="184" name="부경대학교"/>
+ <campus id="185" name="부산가톨릭대학교"/>
+ <campus id="333" name="부산경상대학교"/>
+ <campus id="347" name="부산과학기술대학교"/>
+ <campus id="209" name="부산교육대학교"/>
+ <campus id="157" name="부산대학교"/>
+ <campus id="334" name="부산여자대학교"/>
+ <campus id="348" name="부산예술대학교"/>
+ <campus id="186" name="부산외국어대학교"/>
+ <campus id="158" name="부산장신대학교"/>
+ <campus id="234" name="부천대학교"/>
+ <campus id="56" name="삼육대학교"/>
+ <campus id="398" name="삼육보건대학교"/>
+ <campus id="25" name="상명대학교 서울캠퍼스"/>
+ <campus id="26" name="상명대학교 천안캠퍼스"/>
+ <campus id="93" name="상지대학교"/>
+ <campus id="255" name="상지영서대학교"/>
+ <campus id="36" name="서강대학교"/>
+ <campus id="54" name="서경대학교"/>
+ <campus id="110" name="서남대학교 아산캠퍼스"/>
+ <campus id="111" name="서남대학교 남원캠퍼스"/>
+ <campus id="313" name="서라벌대학교"/>
+ <campus id="235" name="서영대학교 파주캠퍼스"/>
+ <campus id="236" name="서영대학교 광주캠퍼스"/>
+ <campus id="57" name="서울과학기술대학교"/>
+ <campus id="212" name="서울교육대학교"/>
+ <campus id="64" name="서울기독대학교"/>
+ <campus id="55" name="서울대학교"/>
+ <campus id="389" name="서울사이버대학교"/>
+ <campus id="29" name="서울시립대학교"/>
+ <campus id="173" name="서울신학대학교"/>
+ <campus id="219" name="서울여자간호대학교"/>
+ <campus id="28" name="서울여자대학교"/>
+ <campus id="360" name="서울예술대학교"/>
+ <campus id="361" name="서울장신대학교"/>
+ <campus id="356" name="서울한영대학교"/>
+ <campus id="377" name="서울현대전문학교"/>
+ <campus id="378" name="서울호텔종합전문학교"/>
+ <campus id="201" name="서원대학교"/>
+ <campus id="223" name="서일대학교"/>
+ <campus id="342" name="서정대학교"/>
+ <campus id="284" name="서해대학교"/>
+ <campus id="352" name="선린대학교"/>
+ <campus id="112" name="선문대학교"/>
+ <campus id="68" name="성결대학교"/>
+ <campus id="191" name="성공회대학교"/>
+ <campus id="13" name="성균관대학교 인사캠퍼스"/>
+ <campus id="14" name="성균관대학교 자과캠퍼스"/>
+ <campus id="314" name="성덕대학교"/>
+ <campus id="24" name="성신여자대학교"/>
+ <campus id="382" name="세경대학교"/>
+ <campus id="113" name="세명대학교"/>
+ <campus id="60" name="세종대학교"/>
+ <campus id="390" name="세종사이버대학교"/>
+ <campus id="138" name="세한대학교 당진캠퍼스"/>
+ <campus id="139" name="세한대학교 영암캠퍼스"/>
+ <campus id="256" name="송곡대학교"/>
+ <campus id="196" name="송원대학교"/>
+ <campus id="257" name="송호대학교"/>
+ <campus id="327" name="수성대학교"/>
+ <campus id="412" name="수원가톨릭대학교"/>
+ <campus id="237" name="수원과학대학교"/>
+ <campus id="69" name="수원대학교"/>
+ <campus id="238" name="수원여자대학교"/>
+ <campus id="21" name="숙명여자대학교"/>
+ <campus id="137" name="순천대학교"/>
+ <campus id="285" name="순천제일대학교"/>
+ <campus id="114" name="순천향대학교"/>
+ <campus id="37" name="숭실대학교"/>
+ <campus id="220" name="숭의여자대학교"/>
+ <campus id="362" name="신경대학교"/>
+ <campus id="239" name="신구대학교"/>
+ <campus id="187" name="신라대학교"/>
+ <campus id="277" name="신성대학교"/>
+ <campus id="240" name="신안산대학교"/>
+ <campus id="70" name="신한대학교"/>
+ <campus id="363" name="아세아연합신학대학교"/>
+ <campus id="71" name="아주대학교"/>
+ <campus id="269" name="아주자동차대학"/>
+ <campus id="315" name="안동과학대학교"/>
+ <campus id="159" name="안동대학교"/>
+ <campus id="252" name="안산대학교"/>
+ <campus id="72" name="안양대학교"/>
+ <campus id="242" name="여주대학교"/>
+ <campus id="241" name="연성대학교"/>
+ <campus id="1" name="연세대학교 신촌캠퍼스"/>
+ <campus id="22" name="연세대학교 원주캠퍼스"/>
+ <campus id="316" name="연암공업대학"/>
+ <campus id="396" name="열린사이버대학교"/>
+ <campus id="169" name="영남대학교"/>
+ <campus id="387" name="영남신학대학교"/>
+ <campus id="317" name="영남외국어대학"/>
+ <campus id="328" name="영남이공대학교"/>
+ <campus id="188" name="영산대학교"/>
+ <campus id="413" name="영산선학대학교"/>
+ <campus id="318" name="영진전문대학"/>
+ <campus id="386" name="예수대학교"/>
+ <campus id="364" name="예원예술대학교 양주캠퍼스"/>
+ <campus id="365" name="예원예술대학교 임실캠퍼스"/>
+ <campus id="243" name="오산대학교"/>
+ <campus id="73" name="용인대학교"/>
+ <campus id="244" name="용인송담대학교"/>
+ <campus id="140" name="우석대학교 진천캠퍼스"/>
+ <campus id="141" name="우석대학교 전주캠퍼스"/>
+ <campus id="101" name="우송대학교"/>
+ <campus id="268" name="우송정보대학"/>
+ <campus id="337" name="울산과학기술원"/>
+ <campus id="349" name="울산과학대학교"/>
+ <campus id="189" name="울산대학교"/>
+ <campus id="251" name="웅지세무대학교"/>
+ <campus id="142" name="원광대학교"/>
+ <campus id="289" name="원광보건대학교"/>
+ <campus id="160" name="위덕대학교"/>
+ <campus id="115" name="유원대학교"/>
+ <campus id="245" name="유한대학교"/>
+ <campus id="74" name="을지대학교 성남캠퍼스"/>
+ <campus id="75" name="을지대학교 대전캠퍼스"/>
+ <campus id="10" name="이화여자대학교"/>
+ <campus id="221" name="인덕대학교"/>
+ <campus id="161" name="인제대학교"/>
+ <campus id="355" name="인천가톨릭대학교"/>
+ <campus id="174" name="인천대학교"/>
+ <campus id="343" name="인천재능대학교"/>
+ <campus id="344" name="인하공업전문대학교"/>
+ <campus id="175" name="인하대학교"/>
+ <campus id="192" name="장로회신학대학교"/>
+ <campus id="246" name="장안대학교"/>
+ <campus id="290" name="전남과학대학교"/>
+ <campus id="407" name="전남대학교 광주캠퍼스"/>
+ <campus id="408" name="전남대학교 여수캠퍼스"/>
+ <campus id="291" name="전남도립대학교"/>
+ <campus id="292" name="전북과학대학교"/>
+ <campus id="143" name="전북대학교"/>
+ <campus id="358" name="전주교육대학교"/>
+ <campus id="293" name="전주기전대학"/>
+ <campus id="197" name="전주대학교"/>
+ <campus id="294" name="전주비전대학교"/>
+ <campus id="374" name="정화예술대학교"/>
+ <campus id="261" name="제주관광대학교"/>
+ <campus id="145" name="제주국제대학교"/>
+ <campus id="144" name="제주대학교"/>
+ <campus id="262" name="제주한라대학교"/>
+ <campus id="297" name="조선간호대학교"/>
+ <campus id="198" name="조선대학교"/>
+ <campus id="288" name="조선이공대학교"/>
+ <campus id="116" name="중부대학교 충청캠퍼스"/>
+ <campus id="397" name="중부대학교 고양캠퍼스"/>
+ <campus id="2" name="중앙대학교 서울캠퍼스"/>
+ <campus id="3" name="중앙대학교 안성캠퍼스"/>
+ <campus id="414" name="중앙승가대학교"/>
+ <campus id="117" name="중원대학교"/>
+ <campus id="162" name="진주교육대학교"/>
+ <campus id="319" name="진주보건대학교"/>
+ <campus id="78" name="차의과학대학교"/>
+ <campus id="163" name="창신대학교"/>
+ <campus id="190" name="창원대학교"/>
+ <campus id="320" name="창원문성대학"/>
+ <campus id="270" name="천안연암대학"/>
+ <campus id="247" name="청강문화산업대학교"/>
+ <campus id="295" name="청암대학교"/>
+ <campus id="118" name="청운대학교 인천캠퍼스"/>
+ <campus id="119" name="청운대학교 홍성캠퍼스"/>
+ <campus id="120" name="청주교육대학교"/>
+ <campus id="121" name="청주대학교"/>
+ <campus id="130" name="초당대학교"/>
+ <campus id="193" name="총신대학교"/>
+ <campus id="338" name="추계예술대학교"/>
+ <campus id="94" name="춘천교육대학교"/>
+ <campus id="353" name="춘해보건대학교"/>
+ <campus id="202" name="충남대학교"/>
+ <campus id="271" name="충남도립청양대학"/>
+ <campus id="122" name="충북대학교"/>
+ <campus id="354" name="충북도립대학교"/>
+ <campus id="272" name="충북보건과학대학교"/>
+ <campus id="273" name="충청대학교"/>
+ <campus id="210" name="침례신학대학교"/>
+ <campus id="366" name="칼빈대학교"/>
+ <campus id="79" name="평택대학교"/>
+ <campus id="164" name="포항공과대학교"/>
+ <campus id="321" name="포항대학교"/>
+ <campus id="80" name="한경대학교"/>
+ <campus id="258" name="한국골프대학교"/>
+ <campus id="372" name="한국관광대학교"/>
+ <campus id="203" name="한국교원대학교"/>
+ <campus id="82" name="한국교통대학교"/>
+ <campus id="167" name="한국국제대학교"/>
+ <campus id="124" name="한국기술교육대학교"/>
+ <campus id="248" name="한국농수산대학"/>
+ <campus id="388" name="한국뉴욕주립대학교"/>
+ <campus id="379" name="한국방송통신대학교"/>
+ <campus id="249" name="한국복지대학교"/>
+ <campus id="83" name="한국산업기술대학교"/>
+ <campus id="194" name="한국성서대학교"/>
+ <campus id="322" name="한국승강기대학교"/>
+ <campus id="274" name="한국영상대학교"/>
+ <campus id="213" name="한국예술종합학교"/>
+ <campus id="32" name="한국외국어대학교 서울캠퍼스"/>
+ <campus id="33" name="한국외국어대학교 글로벌캠퍼스"/>
+ <campus id="371" name="한국전통문화대학교"/>
+ <campus id="61" name="한국체육대학교"/>
+ <campus id="380" name="한국폴리텍대학교"/>
+ <campus id="84" name="한국항공대학교"/>
+ <campus id="168" name="한국해양대학교"/>
+ <campus id="207" name="한남대학교"/>
+ <campus id="146" name="한동대학교"/>
+ <campus id="95" name="한라대학교"/>
+ <campus id="370" name="한려대학교"/>
+ <campus id="96" name="한림대학교"/>
+ <campus id="259" name="한림성심대학교"/>
+ <campus id="204" name="한밭대학교"/>
+ <campus id="123" name="한서대학교"/>
+ <campus id="195" name="한성대학교"/>
+ <campus id="85" name="한세대학교"/>
+ <campus id="86" name="한신대학교"/>
+ <campus id="6" name="한양대학교 서울캠퍼스"/>
+ <campus id="23" name="한양대학교 ERICA캠퍼스"/>
+ <campus id="391" name="한양사이버대학교"/>
+ <campus id="222" name="한양여자대학교"/>
+ <campus id="296" name="한영대학"/>
+ <campus id="199" name="한일장신대학교"/>
+ <campus id="97" name="한중대학교"/>
+ <campus id="87" name="협성대학교"/>
+ <campus id="275" name="혜전대학교"/>
+ <campus id="132" name="호남대학교"/>
+ <campus id="385" name="호남신학대학교"/>
+ <campus id="305" name="호산대학교"/>
+ <campus id="125" name="호서대학교"/>
+ <campus id="131" name="호원대학교"/>
+ <campus id="19" name="홍익대학교 서울캠퍼스"/>
+ <campus id="20" name="홍익대학교 세종캠퍼스"/>
+</response>

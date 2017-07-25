@@ -1,0 +1,9 @@
+
+* header는 include
+* footer는 include
+
+* 동아리, 대외활동, 공모전 write는
+  common/Write.jsp
+  
+* 
+
